@@ -1,0 +1,43 @@
+querySelector sirve para seleccionar elementos al incio del curso 
+Utilizamos querySelector para recorrer el árbol del DOM, a través de la propiedad textContent conseguimos acceder al 
+texto del párrafo, y así, cambiar el texto.
+
+Arbol de DOM
+En el cual nosotros vamos a poder encontrar un elemento dentro de toda esta estructura. Otra cosa que tienes que tener 
+en cuenta es que existen elementos padre y elementos hijo
+
+Utilizamos el método querySelector para recorrer el árbol del DOM y encontrar el elemento que queremos utilizando 
+JavaScript. 
+
+* document.getElementById(‘id’) selecciona el elemento por el id
+
+* `document.getElementsByClassName(‘clase’) retorna un arreglo de los elementos por el nombre de la clase
+
+* document.getElementsByTagName(‘tag’) retorna un arreglo de los elementos por el nombre del tag
+
+* document.querySelectorAll(“selector”) regresa todos los elementos con el mismo nombre
+
+
+¿Cuáles son las tres cosas que necesitamos para utilizar un escuchador de eventos?
+
+Evento / Elemento que recibirá el evento / Lo que pasará cuando el evento sea realizado.
+
+Necesitamos el tipo del evento, el elemento que recibirá este evento y la acción que pasará cuando el evento sea 
+disparado.
+
+
+Nosotros estamos manipulando el DOM, bueno, utilizando document.querySelector, document.createElement. También, nosotros 
+ya pudimos agregar funciones o acciones que se van a ejecutar una vez que el usuario interactúe con nuestra página web, 
+que es gracias a través de los ever listeners.
+
+También entonces, podemos crear dinámicamente elementos HTML, agregarles clases, eliminarlos, agregarles el contenido, 
+irlos anidando para poder tener ese árbol de DOM, que es entre padres, hijos, hermanos.
+
+Todo es un objeto dentro de nuestro navegador , todo lo que estamos escribiendo en html se puede representar en un objeto
+estos objetos tienen metodos o funciones que nosotros podemos ejecutar para que realicen cierta accion. 
+
+Es importante para esto recordad que lo que vimos e hicimos fue:
+Utilizar data-attributes
+Utilizar el método addEventListener para escuchar eventos de un elemento
+
+Sobre el template 
