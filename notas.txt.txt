@@ -41,3 +41,23 @@ Utilizar data-attributes
 Utilizar el método addEventListener para escuchar eventos de un elemento
 
 Sobre el template 
+La estructura para poder crearlo es la siguiente. 
+
+Se usa comillas de este tipo ``
+Y en este caso la variable que le pasamos se hace colocando signo de $ y luego llaves {}
+`  <div>
+        <i class="far fa-check-square icon"></i>
+        <span class="task">${value}</span>
+    </div>
+    <i class="fas fa-trash-alt trashIcon icon"></i>`;
+
+Además de utilizar los backticks, necesitamos utilizar la expresión ${ } la cual recibirá el código JavaScript.
+
+Todos los elementos en nuestro árbol de DOM son nodos y todos los nodos pueden ser accedidos vía JavaScript. Los nodos 
+pueden ser eliminados, creados o modificados. Durante el curso utilizamos el método appendChild que siempre es 
+implementado al final del nodo, para colocar un nodo hijo dentro del nodo padre.
+
+¿Cuáles estrategias utilizaremos para incrementar la manutención y legibilidad del código de toda nuestra aplicación?
+
+Crear una carpeta para organizar los códigos, darles nombres que tengan sentido para los archivos, funciones y 
+componentes, utilizar import/export para crear comunicación entre los archivos y garantizar el encapsulamiento
